@@ -1,0 +1,83 @@
+/* styles.css */
+
+/* Estilo global para el cuerpo */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Contenedor principal */
+div {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para los encabezados */
+h1 {
+    font-size: 2em;
+    color: #333;
+    border-bottom: 2px solid #e74c3c;
+    padding-bottom: 10px;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #555;
+    margin-top: 0;
+}
+
+h3 {
+    font-size: 1.2em;
+    color: #777;
+    margin-top: 20px;
+}
+
+/* Estilo para párrafos */
+p {
+    margin: 10px 0;
+}
+
+/* Estilo para enlaces */
+a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo para listas */
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Espaciado adicional para listas */
+ul li {
+    padding-left: 10px;
+    position: relative;
+}
+
+ul li::before {
+    content: "•";
+    color: #3498db;
+    position: absolute;
+    left: 0;
+}
+
+/* Espaciado para párrafos dentro de listas */
+ul p {
+    margin: 0;
+}
